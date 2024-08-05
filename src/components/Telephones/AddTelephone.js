@@ -73,7 +73,6 @@ const AddTelephone = (props) => {
       };
       onEditTelephone(telephone.id, telephoneData);
     } else {
-      // If telephone prop doesn't exist, it means we're adding a new telephone
       telephoneData = {
         model: model,
         availableAmount: amount,
